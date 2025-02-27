@@ -1,0 +1,18 @@
+products:
+  - product_name: "Image Generation"
+    pages:
+      - name: "Image Generation"
+        type: "embed"
+        path: "/image-generation"
+        uri: "http://localhost:7860/?__theme=light"
+  - product_name: "Others"
+    pages:
+      - name: "Contact Us"
+        type: "embed"
+        path: "/contact-us"
+        uri: "https://www.bingai.studio/"
+      - name: "Timeline Sample"
+        type: "dash"
+        path: "/samples/timeline"
+        uri: "modules.samples.timeline"
+        
