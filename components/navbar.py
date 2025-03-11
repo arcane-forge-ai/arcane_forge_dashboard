@@ -14,6 +14,9 @@ excluded_links = [
     "/dash-iconify",
     "/",
     "/migration",
+    "/auth/callback",
+    "/login",
+    "/register",
 ]
 
 # https://icon-sets.iconify.design/

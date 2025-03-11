@@ -1,5 +1,4 @@
 import dash_mantine_components as dmc
-from dash import Output, Input, clientside_callback
 from dash_iconify import DashIconify
 
 
@@ -33,6 +32,14 @@ def create_header(data):
                                 h=64,
                                 gap="xl",
                                 children=[
+                                    dmc.Button(
+                                        "Logout",
+                                        id="logout-button",
+                                        # leftIcon=DashIconify(icon="radix-icons:exit", width=20),
+                                        variant="outline",
+                                        color="red",
+                                        size="sm",
+                                    ),
                                     dmc.ActionIcon(
                                         [
                                             DashIconify(

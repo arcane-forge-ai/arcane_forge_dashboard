@@ -78,6 +78,8 @@ def create_appshell(data):
             },
         },
         children=[
+            dcc.Store(id="user-login-token", storage_type="session"),
+            dcc.Store(id="user-info-store", storage_type="session"),
             dcc.Location(id="url", refresh="callback-nav"),
             dmc.NotificationProvider(zIndex=2000),
             dmc.AppShell(

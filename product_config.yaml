@@ -5,6 +5,12 @@ products:
         type: "embed"
         path: "/image-generation"
         uri: "http://localhost:7860/?__theme=light"
+  - product_name: "Audio Generation"
+    pages:
+      - name: "Music Generation"
+        type: "dash"
+        path: "/audio-generation/music_generation"
+        uri: "modules.audio_generation.music_generation"
   - product_name: "Others"
     pages:
       - name: "Contact Us"
